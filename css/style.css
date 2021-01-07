@@ -55,7 +55,7 @@ p{color: #194578;}
 }
 .btn:hover{
     color: #fff;
-    cursor: pointer;
+    cursor: none;
     
 }
 .btn::before{
@@ -93,7 +93,7 @@ p{color: #194578;}
     display: none;
  }
  #slider label {
-    cursor:pointer;
+    cursor:none;
     text-decoration: none;
     
  }
@@ -914,6 +914,7 @@ ul li:hover:nth-child(2) a:after{
   transition-timing-function: ease-out;
   animation: cursorAnim .5s infinite alternate;
   pointer-events: none;
+  z-index: 9999;
 }
 
 .cursor::after {
